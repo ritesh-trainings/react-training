@@ -1,0 +1,13 @@
+[{
+        "user": "abc",
+        "password": "pass",
+        "userType": "candidate",
+        "token": "Token 1"
+    },
+    {
+        "user": "abcd",
+        "password": "pass",
+        "userType": "employee",
+        "token": "Token2"
+    }
+]

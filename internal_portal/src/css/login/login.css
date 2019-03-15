@@ -1,0 +1,43 @@
+.body {
+    background: url("../../../img/cars.jpg");
+    /* transform: rotate(-30deg); */
+    font-family: 'Roboto', sans-serif;
+}
+
+.box {
+    width: 85%;
+    height: 80%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgb(197, 0, 48);
+    border: 50px solid rgb(197, 0, 48);
+    border-radius: 5px;
+}
+
+.card_body {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5%;
+}
+
+.card_img {
+    background: url("../../../img/nissan_digital_logo.svg") center center no-repeat;
+    background-color: rgb(255, 255, 255);
+    /* border: 0px; */
+    background-size: 300px 300px;
+}
+
+.btn_css {
+    background-color: rgb(197, 0, 48);
+    color: white;
+    font-weight: bold;
+    font-size: 1.2em;
+    padding: 3% 0px;
+}
+
+.right {
+    margin-left: auto;
+}

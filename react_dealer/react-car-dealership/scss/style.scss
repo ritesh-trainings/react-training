@@ -1,0 +1,126 @@
+@import 'https://fonts.googleapis.com/css?family=Open+Sans:400,700,800';
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: bold;
+  padding: 0;
+  margin: 0;
+}
+.hidden {
+  display: none;
+}
+
+header {
+  height: 60px;
+  width: 100%;
+  padding: 10px 40px;
+  background: #fff;
+  box-shadow: 1px -5px 15px black;
+  h3 {
+      float: left;
+      margin-top: 5px;
+      margin-left: 5px;
+      font-weight: bold;
+   }
+  .brand {
+    float: left;
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+    background: #424242;
+    margin-top: -8px;
+    .inner {
+      height: 30px;
+      width: 30px;
+      border-radius: 15px;
+      background: #eee;
+      position: relative;
+      left: 10px;
+      top: 10px;
+    }
+    .hub-cap {
+      width: 14px;
+      height: 14px;
+      border-radius: 7px;
+      background: gray;
+      position: relative;
+      top: 8px;
+      left: 8px;
+      
+    }
+  }
+}
+#content {
+  padding: 70px 0;
+}
+#content .col-md-3 {
+  min-height: 700px;
+  background: #F5F5F5;
+  
+  .refinements {
+    .refinement {
+      h4 {
+        padding: 10px 15px;
+        border-bottom: 1px solid rgba(0,0,0,0.05);
+        cursor: pointer;
+      }
+      .refinement-options {
+        list-style-type: none;
+        padding-left: 15px;
+        
+        li {
+          padding: 5px 0;
+          .psuedo-check {
+            display: block;
+            height: 20px;
+            width: 20px;
+            float: left;
+            margin-right: 8px;
+            border: 1px solid rgba(0,0,0,0.09);
+            background: #fff;
+            &.selected {
+              background: #507DBC;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+#content .col-md-9 {
+  .car-display {
+    p {
+      margin-top: -30px;
+    }
+  }
+  .well {
+    float: left;
+    min-height: 400px;
+    width: 390px;
+    border-radius: 0;
+    border: none;
+    padding: 0;
+    margin-right: 20px;
+    background: #212121;
+    transform: all 1s ease-in;
+    .image-container {
+      float: left;
+      margin-right: 10px;
+      
+    }
+    img {
+      height: 260px;
+      width: 390px;
+    }
+    h3 {
+      margin-top: 15px;
+      display: inline;
+      padding: 10px;
+      position: relative;
+      top: 15px;
+      color: white;
+    }
+  }
+  
+}

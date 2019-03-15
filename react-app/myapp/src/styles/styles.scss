@@ -1,0 +1,40 @@
+$primary-color : red;
+$secondary-color : yellow;
+
+body {
+    color: $primary-color;
+    background-color: $secondary-color;
+}
+
+button {
+    padding: 1%;
+    font: 1em black;
+    border: 1px solid black;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.table-button {
+    padding: 1%;
+    font: 1em black;
+    border: 1px solid black;
+}
+
+table {
+    border: 1px solid black;
+}
+
+table thead{
+    border: 1px solid black;
+    background-color: black;
+    color: white;
+}
+
+ul {
+    list-style: none;
+}
+
+li {
+    border: 2px solid black;
+    border-radius: 5px;
+}

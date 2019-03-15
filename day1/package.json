@@ -1,0 +1,18 @@
+{
+  "name": "node_app",
+  "version": "2.5.6",
+  "description": "This is my first node App",
+  "main": "index.js",
+  "esversion": 6,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node welcome.js"
+  },
+  "author": "Ritesh Mukim",
+  "license": "ISC",
+  "dependencies": {
+    "request": "^2.88.0",
+    "underscore": "^1.9.1",
+    "yargs": "^12.0.2"
+  }
+}
